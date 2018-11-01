@@ -39,3 +39,20 @@ private ArrayList<Team> getOrderedTeamList(HashMap<Team, Integer> teamPoints){
     }
 ```
 
+
+
+
+
+#### SOMETHING
+
+```
+//Game objects
+if(removeQueue.size() != 0){
+    for(RenderObject removeQueueObject : new ArrayList<>(removeQueue)){
+        gameObjects.remove(removeQueueObject);
+        world.destroyBody(removeQueueObject.getBody());
+        removeQueue.remove(removeQueueObject);
+    }
+}
+```
+
