@@ -53,3 +53,15 @@ if(removeQueue.size() != 0){
 }
 ```
 
+#### varargs and arrayLists
+
+```java
+
+ArrayList<Item> items = new ArrayList<>(otherList);
+addItemsToInventory((Item[])items.toArray());
+
+public void addItemsToInventory(Item ... item){
+    inventory.addAll(Array.asList(item));
+}
+```
+
