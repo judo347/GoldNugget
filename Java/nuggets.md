@@ -58,7 +58,7 @@ if(removeQueue.size() != 0){
 ```java
 
 ArrayList<Item> items = new ArrayList<>(otherList);
-addItemsToInventory((Item[])items.toArray());
+addItemsToInventory((Item[])items.toArray()); //TODO THIS LINE FAILS!! FIND ANOHTER WAY
 
 public void addItemsToInventory(Item ... item){
     inventory.addAll(Array.asList(item));
