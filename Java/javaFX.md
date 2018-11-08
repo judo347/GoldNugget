@@ -1,6 +1,6 @@
 #### General tips
 
-.fxml has to be placed in the out folder. This can be done by gradle or like.
+.fxml has to also be placed in the out folder. This can be done by gradle or like.
 
 
 
