@@ -65,3 +65,16 @@ public void addItemsToInventory(Item ... item){
 }
 ```
 
+#### something
+
+```java
+if(botsListView.getItems().size() >= 5)
+	addBotBtn.setDisable(true);
+else
+	addBotBtn.setDisable(false);
+```
+
+```java
+addBotBtn.setDisable(botsListView.getItems().size() >= 5);
+```
+
