@@ -1,5 +1,5 @@
 ### Operator overload
-```
+````c#
 readonly private Item[] allIngameItems;
 
 
@@ -14,4 +14,4 @@ public ItemDropManager(Item[] allIngameItems)
 
   this.allIngameItems = allIngameItems;
 }
-```
+````
